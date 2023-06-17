@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=League+Spartan:wght@300&display=swap');
+body{
+    font-family: 'League Spartan', sans-serif;}
+h1,h4,a{ color: #2299aa;}
+p{
+    line-height: 1.5rem;
+    color: #333333;
+    font-size: 20px;
+}
+/* navigation */
+.navigation {
+	z-index: 1000;
+	width: 100%;
+	position: relative;
+	min-height: 60px;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+.navbar-light .navbar-brand {
+    color: #2299aa !important;
+    font-size: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #333333;
+    font-weight: 600;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+/* banner */
+.banner, .my-works, .pricing, .testimonials{
+	background-color: #eae7dc;
+}
+
+.my-clients .card, .my-contacts .card{
+    background-color: #eae7dc;
+    border: none;
+}
+.my-contacts a{
+    text-decoration: none;
+}
+.what-i-do h4{
+    font-weight: 600;
+}
+/* buttons */
+.btn{
+    background-color: #2299aa !important;
+    border-radius: 2rem !important;
+    color: #ffffff !important;
+    border: #2299aa !important; 
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+h1, h5{
+    font-weight: 700;
+}
+.testimonials img{
+    border-radius: 3rem;
+}
+.testimonials span{
+    font-style: italic;
+}
+/* icons */
+.icon{
+    width: 100% !important;
+    color: #fff !important;
+    background-color: #2299aa;
+    border-radius: 28px;
+    height: 50px;
+    max-width: 50px;
+    background-size: 20%;
+    padding: 12px;
+    margin: auto;
+}
+hr{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+/* footer */
+.footer a{
+    text-decoration: none;
+    color: #2299aa;
+    font-style: italic;
+}
+.row > .column {
+    padding: 0 8px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  img.demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .image3 img{
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
+  }
+
+  #content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 15px;
+  }
+  .image {
+    background-color: #F44336;
+    display: block;
+    width: 100%;
+    padding-top: 75%;
+    position: relative;
+    overflow: hidden;
+  }
+  .image img {
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
